@@ -1,0 +1,87 @@
+/*1. universal and type select*/
+/*1.1 font + ling-heught*/
+*{
+    font-family: sans-serif;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+/* body background*/
+body{
+    background: color #f4f4f4;
+}
+/* center h1 + h2*/
+h1, h2{
+    text-align: center;
+    color: #336699;
+}
+/* paragraph pacing*/
+p{
+    margin-bottom: 1em;
+}
+/* 2. class and id selector*/
+/* id special*/
+#special{
+    background-color: #fffacd;
+    padding: 10px;
+}
+/*class hello*/
+.hello{
+    color: #28a745;
+    font-weight: bold;
+}
+/*3 descendant and child selectors*/
+/* target h2*/
+.main-content > h2,
+.ai-tools > h2{
+    text-transform: uppercase;
+}
+/* style all li */
+.ai-tools li{
+    list-style: square;
+}
+/* padding left */
+.ai-tools ul{
+    padding-left: 20px;
+}
+/* 4 attribute selectors*/
+/*input type text*/
+input[type="text"]{
+    border: 1px;
+    padding: 8px;
+}
+/*input type submit*/
+input[type="submit"]{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+}
+/*5 pseudo-classes and pseudo-element*/
+/* change color of a*/
+a{
+    color: #007bff;
+}
+/*text-decoration */
+a:hover{
+    text-decoration: none;
+    color: #0056b3;
+}
+/*visited link exepmle*/
+footer a:nth-of-type(2):visited{
+    color: #6c757d;
+}
+/*focus on input*/
+input:focus, textarea:focus, select:focus{
+    border: 2px solid blue;
+    outline: none;
+}
+/*6 combining selectors & specificity challenge*/
+div.ai-tools li.hello{
+    font-style: italic;
+}
+h1{
+    font-size: 2em;
+}
+footer h1 {
+    font-size: 1.2em;
+}

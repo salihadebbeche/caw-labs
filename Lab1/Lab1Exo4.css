@@ -1,0 +1,44 @@
+/*General page style */
+html {
+  margin: 50px;
+  background-color: #e8eae8;
+  color:  #5d665b;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: small;
+  line-height: 1.8; /* 180% of font size */
+}
+
+/* Body margins */
+body {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 120px;
+  margin-right: 80px;
+}
+
+/* Headings and Paragraphs */
+h1 {
+  color: #fffddd;
+  font-size: 2em;
+}
+
+h2 {
+  color: #966b72;
+  font-family: Georgia, serif;
+}
+
+/* Font size adjustments */
+/* first h2 smaller (75%) */
+h2:first-of-type {
+  font-size: 75%;
+}
+
+/* first paragraph smaller (70%) */
+p:first-of-type {
+  font-size: 70%;
+}
+
+/* second paragraph indentation of 3em */
+p:nth-of-type(2) {
+  text-indent: 3em;
+}
