@@ -1,0 +1,68 @@
+body {
+  background-color: #f5f8fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.tp-block {
+  border: 2px solid #d1e0e0;
+  border-radius: 10px;
+  background: #fff;
+  margin: 24px auto;
+  padding: 24px 30px;
+  max-width: 410px;
+  box-shadow: 1px 4px 20px #e9ecef;
+  transition: box-shadow 0.3s;
+}
+
+.tp-block h2 {
+  margin-top: 0;
+  color: #1b8ab8;
+}
+
+.tp-block button {
+  background: #1b8ab8;
+  border: none;
+  padding: 8px 18px;
+  margin: 6px 4px;
+  border-radius: 6px;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.tp-block button:hover {
+  background: #10759a;
+}
+
+.tp-block input {
+  margin: 7px 8px 7px 0;
+  padding: 6px;
+  border: 1px solid #b9ced6;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.tp-block ul {
+  padding: 0 0 0 28px;
+}
+
+.tp-block li {
+  margin: 7px 0;
+  line-height: 1.7;
+  cursor: pointer;
+  transition: background 0.16s;
+  border-radius: 4px;
+}
+.tp-block li:hover {
+  background: #e3f2f9;
+}
+
+.tp-div-box {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  border: 1px solid #bbd8dd;
+  border-radius: 7px;
+  transition: box-shadow 0.15s;
+  box-shadow: 1px 2px 7px #dde;
+}
